@@ -1,0 +1,57 @@
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.input {
+    width: 500px;
+    height: 20px;
+}
+.btnAdd {
+    border: none;
+    background-color: rgb(21, 153, 214);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btnAdd:hover {
+    background-color: rgb(21, 111, 214);
+}
+.btnAdd:disabled {
+    cursor: default;
+    background-color: black;
+}
+.form {
+    border: 1px solid black;
+    width: 505px;
+    margin-top: 10px;
+}
+.formInput {
+    padding-left: 10px;
+    z-index: 1;
+}
+.btnDelete, .btnSuccess {
+    border: none;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 10px;
+}
+.btnDelete {
+    background-color: red;
+}
+.btnSuccess {
+    background-color: green;
+    margin-right: 10px;
+}
+.btnSuccessToggle {
+    background-color: rgba(5, 194, 68, 0.2);
+}
+.formInputToggle {
+    color: rgb(0, 66, 0);
+    z-index: 1;
+}
